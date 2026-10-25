@@ -1,0 +1,18 @@
+# Build output
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+# UI bundled into the jar by `npm run build:embed` (generated)
+backend/src/main/resources/static/
+# Runtime exports (may contain private room data)
+exports/
+backend/exports/
+# Secrets / local overrides
+.env
+*.local.properties
+# IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
